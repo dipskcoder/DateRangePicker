@@ -1,0 +1,41 @@
+
+.dates {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  padding: 5px;
+}
+.date {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 10px;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-picker{
+  display: flex;
+}
+
+.calender{
+background-color: #a3d0f3;;
+}
+
+.date-selected{
+
+  background-color: darkblue !important;
+
+}
+
+.date-hover{
+  background-color: yellow;
+}
+.month-section{
+  display: flex;
+    justify-content: space-around;
+
+}
